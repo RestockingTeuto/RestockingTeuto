@@ -3,8 +3,16 @@
   background-color: #282c34;
 }
 
-.Content {
+.Content1 {
   background-image: url("./assets/Teuto1.JPG");
+}
+
+.Content2 {
+  background-image: url("./assets/Teuto2.jpg");
+}
+
+.Content3 {
+  background-image: url("./assets/Teuto3.png");
 }
 
 .App-link {
