@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/RestockingTeuto/static/css/main.bc04d43c.css",
+    "main.js": "/RestockingTeuto/static/js/main.eea61c90.js",
+    "static/js/787.94226838.chunk.js": "/RestockingTeuto/static/js/787.94226838.chunk.js",
+    "static/media/Teuto1.JPG": "/RestockingTeuto/static/media/Teuto1.db6d713e48321168f20d.JPG",
+    "static/media/Logo.png": "/RestockingTeuto/static/media/Logo.e35a47205636885262f0.png",
+    "static/media/SettingsButtonIcon.jpg": "/RestockingTeuto/static/media/SettingsButtonIcon.4a2af7471ece9a5c88ab.jpg",
+    "index.html": "/RestockingTeuto/index.html",
+    "main.bc04d43c.css.map": "/RestockingTeuto/static/css/main.bc04d43c.css.map",
+    "main.eea61c90.js.map": "/RestockingTeuto/static/js/main.eea61c90.js.map",
+    "787.94226838.chunk.js.map": "/RestockingTeuto/static/js/787.94226838.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc04d43c.css",
+    "static/js/main.eea61c90.js"
+  ]
+}
