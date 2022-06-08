@@ -6,15 +6,6 @@ import Index from "./assets/index.jpg"
 
 function Settings() {
 
-
-    const styles = {
-        background: '#000',
-        width: '2px',
-        cursor: 'col-resize',
-        margin: '0 5px',
-        height: '100%',
-    };
-
     const [clicked, setClicked] = useState(false);
 
 
