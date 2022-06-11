@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/RestockingTeuto/static/css/main.1ec9b0ee.css",
-    "main.js": "/RestockingTeuto/static/js/main.9294989a.js",
+    "main.css": "/RestockingTeuto/static/css/main.19e1f901.css",
+    "main.js": "/RestockingTeuto/static/js/main.4c1b9fca.js",
     "static/js/787.94226838.chunk.js": "/RestockingTeuto/static/js/787.94226838.chunk.js",
-    "static/media/Teuto2.jpg": "/RestockingTeuto/static/media/Teuto2.9d04acc4d25d2a479b88.jpg",
+    "static/media/Teut5.png": "/RestockingTeuto/static/media/Teut5.e6f9b1b5f796ea3337ff.png",
+    "static/media/Teuto4.png": "/RestockingTeuto/static/media/Teuto4.e6f9b1b5f796ea3337ff.png",
     "static/media/Teuto1.JPG": "/RestockingTeuto/static/media/Teuto1.db6d713e48321168f20d.JPG",
-    "static/media/Teuto3.png": "/RestockingTeuto/static/media/Teuto3.8c5b2c362befe633d4f7.png",
-    "static/media/Logo.png": "/RestockingTeuto/static/media/Logo.e35a47205636885262f0.png",
-    "static/media/SettingsButtonIcon.jpg": "/RestockingTeuto/static/media/SettingsButtonIcon.4a2af7471ece9a5c88ab.jpg",
+    "static/media/Logo3.png": "/RestockingTeuto/static/media/Logo3.50f160be3348506e4437.png",
+    "static/media/Settings.png": "/RestockingTeuto/static/media/Settings.d20796cec3e1a14a2e51.png",
     "index.html": "/RestockingTeuto/index.html",
-    "main.1ec9b0ee.css.map": "/RestockingTeuto/static/css/main.1ec9b0ee.css.map",
-    "main.9294989a.js.map": "/RestockingTeuto/static/js/main.9294989a.js.map",
+    "main.19e1f901.css.map": "/RestockingTeuto/static/css/main.19e1f901.css.map",
+    "main.4c1b9fca.js.map": "/RestockingTeuto/static/js/main.4c1b9fca.js.map",
     "787.94226838.chunk.js.map": "/RestockingTeuto/static/js/787.94226838.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ec9b0ee.css",
-    "static/js/main.9294989a.js"
+    "static/css/main.19e1f901.css",
+    "static/js/main.4c1b9fca.js"
   ]
 }
