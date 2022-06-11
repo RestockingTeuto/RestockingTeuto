@@ -18,7 +18,7 @@ root.render(
             cookieName="Why do you care? Privacy? NO!"
             style={{ background: "#2B373B" }}
             buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
-            expires={150}
+            expires={0}
         >
             We want to steal all your data. Click 'Yess!!' to accept.
         </CookieConsent>
