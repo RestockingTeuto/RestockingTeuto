@@ -10,6 +10,15 @@ function App() {
             </div>
             <div className={"Content"}>
                 <div className={"Content1"} style={{fontSize: '24px', color: "darkgreen"}}>
+                    {
+                        <div className={"breaks"}>
+                            <br/>
+                            <br/>
+                            <br/>
+                            <br/>
+                            <br/>
+                        </div>
+                    }
                     <h3>Who are we?</h3>
                     <p style={{color: "white"}}>
                         Our project's goal is to restore trees that have been cut down or destroyed in other
