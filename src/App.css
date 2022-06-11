@@ -12,6 +12,26 @@
   margin:0px;
 }
 
+/* unvisited link */
+a:link {
+  color: lightgreen;
+}
+
+/* visited link */
+a:visited {
+  color: grey;
+}
+
+/* mouse over link */
+a:hover {
+  color: lawngreen;
+}
+
+/* selected link */
+a:active {
+  color: green;
+}
+
 .Logo {
   width: 100%;
   height: 850px;

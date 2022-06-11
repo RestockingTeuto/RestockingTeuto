@@ -98,7 +98,9 @@ function App() {
                         According to the German government, 114,000 hectares of forest will need to be planted
                         and
                         refilled, with bark beetles alone destroying 40,000 hectares.<br/>
-                        Big organizations like the Arbor Day Foundation have already established campaigns like
+                        Big organizations like the
+                        <a href="https://www.arborday.org/"> Arbor Day Foundation </a>
+                        have already established campaigns like
                         Team
                         Trees, where people all over the world plant trees for one euro. In Germany, however,
                         this
