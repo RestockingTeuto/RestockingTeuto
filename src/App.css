@@ -1,30 +1,38 @@
-.App {
-  text-align: center;
-  background-color: #282c34;
+*{
+  margin:	0% 0% 0% 0%;
+  padding: 0;
 }
 
-.inner {
+.TT {
   text-align: center;
   background-color: #282c34;
+  font-family: "DejaVu Sans Condensed";
+  display:inline-block;
+  padding:0px;
+  margin:0px;
 }
 
-.inner2 {
-  text-align: center;
-  background-color: #282c34;
+.Logo {
+  width: 100%;
+  height: 1200px;
 }
 
 .Content1 {
-  background-image: url("./assets/Teuto1.JPG");
+  background-image: url("./assets/Teuto6.png");
+  font-family: "DejaVu Sans Condensed";
 }
 
 .Content2 {
   background-image: url("./assets/Teuto4.png");
+  font-family: "DejaVu Sans Condensed";
 }
 
 .Content3 {
   background-image: url("./assets/Teut5.png");
+  font-family: "DejaVu Sans Condensed";
 }
 
-.App-link {
-  color: #61dafb;
+.Content4 {
+  background-image: url("./assets/Teuto7.png");
+  font-family: "DejaVu Sans Condensed";
 }

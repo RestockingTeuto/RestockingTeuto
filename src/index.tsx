@@ -1,8 +1,8 @@
-import React, {useState} from 'react';
+import React, {useEffect} from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import PA from "./PreApp"
 import reportWebVitals from './reportWebVitals';
+import App from "./App";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -10,7 +10,7 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <React.StrictMode>
-    <PA />
+    <App />
   </React.StrictMode>
 );
 
