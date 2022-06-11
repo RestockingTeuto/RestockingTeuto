@@ -1,0 +1,22 @@
+.Options {
+    background-color: #282c34;
+}
+
+.Head {
+    text-align: center;
+    color: green;
+}
+
+.ButtonX {
+    border-radius: 2px;
+    width: 100%;
+    height: 100%;
+    background-color: #18191A;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px
+}

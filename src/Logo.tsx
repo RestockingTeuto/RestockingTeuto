@@ -1,26 +1,45 @@
 import React from "react";
 import './Logo.css'
 import Settings from "./Settings";
-import LogoIcon from "./assets/Logo.png"
 
-function Logo() {
+function Logo(state: boolean, setClicked: (p: boolean) => any) {
+
     return (
         <div className="Settings">
-
             {
-                Settings()
+                state ?
+                    <div></div>
+                    :
+                    <div className={"notClicked"}>
+
+                        <div className={"nColumn2"}>
+                            {
+                                Settings(state, setClicked)
+                            }
+                            {
+                                <div className={"breaks"}>
+                                    <br/>
+                                    <br/>
+                                    <br/>
+                                    <br/>
+                                    <br/>
+                                    <br/>
+                                    <br/>
+                                    <br/>
+                                    <br/>
+                                    <br/>
+                                    <br/>
+                                    <br/>
+                                    <br/>
+                                    <br/>
+                                    <br/>
+                                    <br/>
+                                </div>
+                            }
+                        </div>
+
+                    </div>
             }
-
-            <div className="Logo">
-                <header>
-                    Restocking <br/>
-                    Teuto
-                </header>
-                <img className={"Logo-Icon"} src={LogoIcon}
-                        alt="HTML5" width="711.108" height="400"/>
-            </div>
-
-
         </div>
 
     )

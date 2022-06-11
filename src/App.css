@@ -3,16 +3,26 @@
   background-color: #282c34;
 }
 
+.inner {
+  text-align: center;
+  background-color: #282c34;
+}
+
+.inner2 {
+  text-align: center;
+  background-color: #282c34;
+}
+
 .Content1 {
   background-image: url("./assets/Teuto1.JPG");
 }
 
 .Content2 {
-  background-image: url("./assets/Teuto2.jpg");
+  background-image: url("./assets/Teuto4.png");
 }
 
 .Content3 {
-  background-image: url("./assets/Teuto3.png");
+  background-image: url("./assets/Teut5.png");
 }
 
 .App-link {

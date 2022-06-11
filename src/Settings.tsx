@@ -1,19 +1,15 @@
 import React, {useState} from "react";
 import './Settings.css'
-import ButtonIcon from "./assets/SettingsButtonIcon.jpg"
+import ButtonIcon from "./assets/Settings.png"
 import Index from "./assets/index.jpg"
 
-
-function Settings() {
-
-    const [clicked, setClicked] = useState(false);
-
+function Settings(state: boolean, setClicked: (p: boolean) => any) {
 
     return (
-            clicked ? <img className="SettingsButtonIcon" onClick={() => setClicked(!clicked)} src={ButtonIcon}
-                          alt="HTML5" width="25" height="25"/>
-            : <img className="SettingsButtonIcon" onClick={() => setClicked(!clicked)} src={Index} alt="HTML5"
-                   width="25" height="25"/>
+            !state ? <img className="SettingsButtonIcon" onClick={() => setClicked(!state)} src={ButtonIcon}
+                          alt="HTML5" width="60" height="40"/>
+            : <img className="SettingsButtonIcon" onClick={() => setClicked(!state)} src={Index} alt="HTML5"
+                   width="40" height="40"/>
     );
 }
 
