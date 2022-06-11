@@ -20,7 +20,7 @@ function App() {
                             <br/>
                         </div>
                     }
-                    <h3>Who are we?</h3>
+                    <h3>Who are we?</h3> <br/>
                     <p style={{color: "white"}}>
                         Our project's goal is to restore trees that have been cut down or destroyed in other
                         ways.
@@ -59,7 +59,7 @@ function App() {
                             <br/>
                         </div>
                     }
-                    <h3>But why is it so vital to restore the forest?</h3>
+                    <h3>But why is it so vital to restore the forest?</h3> <br/>
                     <p style={{color: "white"}}>
                         Forests are a proven and very low-cost technique of absorbing carbon from the
                         atmosphere,
@@ -93,7 +93,7 @@ function App() {
                             <br/>
                         </div>
                     }
-                    <h3>Our situation in Germany</h3>
+                    <h3>Our situation in Germany</h3> <br/>
                     <p style={{color: "white"}}>
                         According to the German government, 114,000 hectares of forest will need to be planted
                         and
@@ -131,7 +131,7 @@ function App() {
                             <br/>
                         </div>
                     }
-                    <h3>How do we achieve this objective?</h3>
+                    <h3>How do we achieve this objective?</h3> <br/>
                     <p style={{color: "white"}}>
                         Planting trees is, of course, the most important aspect of "Restocking Teuto," but there are other factors to consider as well, such as improving soils and protecting wildlife corridors.
                         <br/>However, YOU must also assist us. <br/> If you want to protect forests, you can do things like buy forest-friendly products, use less paper, or use a toilet paper alternative like Bamboo.
