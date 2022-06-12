@@ -1,13 +1,12 @@
 import React from "react";
-import Logo from './assets/Logo2.png'
 import './App.css'
 
 function App() {
 
     return (
-        <div className={"TT"}>
-            <div>
-                <img className={"Logo"} alt={"HTML5"} src={Logo}/>
+        <div className={"App"}>
+            <div className={"Logo"}>
+
             </div>
             <div className={"Content"}>
                 <div className={"Content1"} style={{fontSize: '24px', color: "darkgreen"}}>

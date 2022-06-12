@@ -1,9 +1,9 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import App from "./App";
-import CookieConsent, { Cookies } from "react-cookie-consent";
+import CookieConsent from "react-cookie-consent";
 
 const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement
