@@ -40,6 +40,17 @@ a:active {
   background-position-y: center;
 }
 
+.SettingsButton {
+  width: 45px;
+  height: 25px;
+  position: relative;
+  right: -49%;
+}
+
+.Sidebar {
+  right: -85.8%;
+}
+
 .Content1 {
   background-image: url("./assets/Teuto6.png");
   font-family: "DejaVu Sans Condensed";

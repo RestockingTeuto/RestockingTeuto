@@ -1,13 +1,39 @@
-import React from "react";
+import React, {useState} from "react";
 import './App.css'
+import Settings from "./assets/Settings.png"
+import {ProSidebar, Menu, MenuItem} from 'react-pro-sidebar';
+import 'react-pro-sidebar/dist/css/styles.css';
+import {Routes, Route, Link, BrowserRouter} from "react-router-dom";
+import Donation from "./components/Donation"
+
 
 function App() {
+
+    const [clicked, setClicked] = useState(false);
 
     return (
         <div className={"App"}>
             <div className={"Logo"}>
-
+                {
+                    clicked ?
+                        <ProSidebar className={"Sidebar"}>
+                            <Menu iconShape="square">
+                                <MenuItem>
+                                    Donation
+                                    <Link to="/RestockingTeuto/donation"/>
+                                </MenuItem>
+                                <MenuItem>Imprint
+                                <Link to={"/RestockingTeuto/Imprint"}/></MenuItem>
+                                <MenuItem>Team <Link to={"/RestockingTeuto/Team"}/></MenuItem>
+                                <MenuItem onClick={() => setClicked(!clicked)}>Close</MenuItem>
+                            </Menu>
+                        </ProSidebar>
+                        :
+                        <img className={"SettingsButton"} src={Settings} alt={"HTML5"}
+                             onClick={() => setClicked(!clicked)}/>
+                }
             </div>
+
             <div className={"Content"}>
                 <div className={"Content1"} style={{fontSize: '24px', color: "darkgreen"}}>
                     {
@@ -132,8 +158,13 @@ function App() {
                     }
                     <h3>How do we achieve this objective?</h3> <br/>
                     <p style={{color: "white"}}>
-                        Planting trees is, of course, the most important aspect of "Restocking Teuto," but there are other factors to consider as well, such as improving soils and protecting wildlife corridors.
-                        <br/>However, YOU must also assist us. <br/> If you want to protect forests, you can do things like buy forest-friendly products, use less paper, or use a toilet paper alternative like Bamboo.
+                        Planting trees is, of course, the most important aspect of "Restocking Teuto," but there are
+                        other factors to consider as well, such as improving soils and protecting wildlife
+                        corridors.
+                        <br/>However, YOU must also assist us. <br/> If you want to protect forests, you can do
+                        things
+                        like buy forest-friendly products, use less paper, or use a toilet paper alternative like
+                        Bamboo.
                     </p>
                     {
                         <div className={"breaks"}>
