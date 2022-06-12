@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/RestockingTeuto/static/css/main.7da976bc.css",
-    "main.js": "/RestockingTeuto/static/js/main.a9ae64bd.js",
+    "main.css": "/RestockingTeuto/static/css/main.ca0d3182.css",
+    "main.js": "/RestockingTeuto/static/js/main.3fbb19c3.js",
     "static/js/787.94226838.chunk.js": "/RestockingTeuto/static/js/787.94226838.chunk.js",
     "static/media/Teut5.png": "/RestockingTeuto/static/media/Teut5.e6f9b1b5f796ea3337ff.png",
     "static/media/Teuto4.png": "/RestockingTeuto/static/media/Teuto4.e6f9b1b5f796ea3337ff.png",
     "static/media/Teuto6.png": "/RestockingTeuto/static/media/Teuto6.267fa5db2c9b5723a881.png",
     "static/media/Teuto7.png": "/RestockingTeuto/static/media/Teuto7.292744888d6a428707c4.png",
+    "static/media/Settings.png": "/RestockingTeuto/static/media/Settings.4cd329af22cdf405d7a5.png",
     "index.html": "/RestockingTeuto/index.html",
-    "main.7da976bc.css.map": "/RestockingTeuto/static/css/main.7da976bc.css.map",
-    "main.a9ae64bd.js.map": "/RestockingTeuto/static/js/main.a9ae64bd.js.map",
+    "main.ca0d3182.css.map": "/RestockingTeuto/static/css/main.ca0d3182.css.map",
+    "main.3fbb19c3.js.map": "/RestockingTeuto/static/js/main.3fbb19c3.js.map",
     "787.94226838.chunk.js.map": "/RestockingTeuto/static/js/787.94226838.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7da976bc.css",
-    "static/js/main.a9ae64bd.js"
+    "static/css/main.ca0d3182.css",
+    "static/js/main.3fbb19c3.js"
   ]
 }
